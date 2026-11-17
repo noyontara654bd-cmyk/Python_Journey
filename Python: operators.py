@@ -15,7 +15,7 @@ print(avg_float)
 avg_int = total // 3
 print(avg_int)
 
-# 4. Product of first two minus the third
+# 4. Product of the first two minus the third
 result = (a * b) - c
 print(result)
 
@@ -27,6 +27,6 @@ print(rem)
 int_div = a // c
 print(int_div)
 
-# 7. Sum of square of b and cube of c
+# 7. Sum of the square of b and cube of c
 power_sum = (b ** 2) + (c ** 3)
 print(power_sum)
