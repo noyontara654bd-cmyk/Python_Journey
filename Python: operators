@@ -1,0 +1,32 @@
+# Taking three integer inputs
+a = int(input())
+b = int(input())
+c = int(input())
+
+# 1. Total sum of three numbers
+total = a + b + c
+print(total)
+
+# 2. Float average
+avg_float = total / 3
+print(avg_float)
+
+# 3. Integer average (floor division)
+avg_int = total // 3
+print(avg_int)
+
+# 4. Product of first two minus the third
+result = (a * b) - c
+print(result)
+
+# 5. Remainder when a is divided by b
+rem = a % b
+print(rem)
+
+# 6. Integer division of a by c
+int_div = a // c
+print(int_div)
+
+# 7. Sum of square of b and cube of c
+power_sum = (b ** 2) + (c ** 3)
+print(power_sum)
